@@ -2,10 +2,13 @@ print('Hello there')
 
 print('--------------')
 
-x= int(input("enter first number : "))
 
-y=int(input("enter second number : "))
+def addition(x,y):
+    x= int(input("enter first number : "))
 
-z= x+y
+    y=int(input("enter second number : "))
 
-print(f'Sum of {x} and {y} is {z}')
+    z= x+y
+    print(z)
+
+addition(3,5)
